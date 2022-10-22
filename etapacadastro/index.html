@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!--Crie Um FORMULÁRIO COMPLETO com HTML, CSS & JavaScript(video que aprendi a fazer)-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Formulário</title>
+  </head>
+  <body>  
+    <!--CABECALHO-->  
+    <div class="div1">
+      <a href="#"><img id="logo-branca" src="/Assets/icons/logo-colorida.png" ></a>
+      <a href="#"><img id="contato" src="/Assets/icons/icon-contato.png" alt=""></a>
+    </div>
+    <!--CABECALHO-->
+    <div class="container">
+      <div class="header">
+        <h2>LOGIN</h2>
+      </div>
+      <form id="form" class="form">
+        <div class="form-control">
+          <label for="username">Nome de usuário</label>
+          <input
+            type="text"
+            id="username"
+            placeholder="Digite seu nome de usuário..."
+          />
+          <i class="fa-solid fa-circle-exclamation"></i>
+          <i class="fa-sharp fa-solid fa-circle-check"></i>
+          <small>Mensagem de erro</small>
+        </div>
+
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input type="text" id="email" placeholder="Digite seu email.." />
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fas fa-check-circle"></i>
+          <small>Mensagem de erro</small>
+        </div>
+
+        <div class="form-control">
+          <label for="password">Senha</label>
+          <input
+            type="password"
+            id="password"
+            placeholder="Digite sua senha..."
+          />
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fas fa-check-circle"></i>
+          <small>Mensagem de erro</small>
+        </div>
+
+        <div class="form-control">
+          <label for="password-confirmation">Confirmação de senha</label>
+          <input
+            type="password"
+            id="password-confirmation"
+            placeholder="Digite sua senha novamente..."
+          />
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fas fa-check-circle"></i>
+          <small>Mensagem de erro</small>
+        </div>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+
+    <script src="https://kit.fontawesome.com/9ace57f499.js" crossorigin="anonymous"></script>
+    
+    <script src="/etapacadastro/js/script.js"></script>
+  </body>
+</html>
